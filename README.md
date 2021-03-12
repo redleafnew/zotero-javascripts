@@ -26,6 +26,8 @@ Some JavaScripts used in Zotero to batch process
 * ### [5. delete the addachments when the items were removed](https://github.com/redleafnew/zotero-javascripts/blob/main/5delete%20the%20addachments%20when%20the%20items%20were%20removed.js)
     删除条目的同时删除附件（在安装了[ZotFlie](http://zotfile.com)扩展后很有用）。
 * ### [6. change the authors case to title case](https://github.com/redleafnew/zotero-javascripts/blob/main/6change%20the%20authors%20case%20to%20title%20case.js)
-    将作者大小写修改词首字母大写，使用方法见[[Zotero作者姓名批量修改为首字母大写](https://zhuanlan.zhihu.com/p/354481222)。
-
+    将作者大小写修改词首字母大写，使用方法见[Zotero作者姓名批量修改为首字母大写](https://zhuanlan.zhihu.com/p/354481222)。
+* ### [7. batch merge duplicates](https://github.com/redleafnew/zotero-javascripts/blob/main/7batch%20merge%20duplicates.js)
+    批量删除（合并）重复文献，使用方法见[Zotero批量删除（合并）重复文献](https://zhuanlan.zhihu.com/p/352324486)。
+    
 更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

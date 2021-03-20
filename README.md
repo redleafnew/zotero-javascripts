@@ -35,7 +35,7 @@ Some JavaScripts used in Zotero to batch process
 * ### [8. back up profile and data](https://github.com/redleafnew/zotero-javascripts/blob/main/8back%20up%20profile%20and%20data.js)
     备份配置和数据。使用方法见[Zotero利用JavaScript备份配置和数据](https://zhuanlan.zhihu.com/p/357859432)。
 
-* ### [https://github.com/redleafnew/zotero-javascripts/blob/main/9delete%20item(s)%20snapshots.js](https://github.com/redleafnew/zotero-javascripts/blob/main/9delete%20item(s)%20snapshots.js)。
+* ### [9. delete item(s) snapshots.js](https://github.com/redleafnew/zotero-javascripts/blob/main/9delete%20item(s)%20snapshots.js)。
     删除所选条目的快照，包括贮存的本地文件。
     
 更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

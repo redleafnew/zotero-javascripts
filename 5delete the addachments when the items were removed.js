@@ -1,7 +1,7 @@
 //20210320
 //添加如果文件在storage中，同时删除文件夹
 //删除条目的同时删除附件
-var zfPath = Zotero.ZotFile.getPref("dest_dir")   //得到zotfile路径
+var zfPath = Zotero.ZotFile.getPref("dest_dir");   //得到zotfile路径
 var DelItems = []; //删除的条目
 var zoteroPane = Zotero.getActiveZoteroPane();
 var items = zoteroPane.getSelectedItems();

@@ -37,5 +37,7 @@ Some JavaScripts used in Zotero to batch process
 
 * ### [9. delete item(s) snapshot(s).js](https://github.com/redleafnew/zotero-javascripts/blob/main/9delete%20item(s)%20snapshots.js)
     删除所选条目的快照，包括贮存的本地文件。
-    
+
+ ### [10. add bold tag around author.js](https://github.com/redleafnew/zotero-javascripts/blob/main/10bold%20authors.js)
+    在作者前后添加加粗标记。   
 更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

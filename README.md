@@ -41,7 +41,7 @@ Some JavaScripts used in Zotero to batch process
  * ### [10. add bold tag around author.js](https://github.com/redleafnew/zotero-javascripts/blob/main/10bold%20authors.js)
     在作者前后添加加粗标记。   
 
- * ### [11. 11del all the attachment(s) of item(s).js](https://github.com/redleafnew/zotero-javascripts/blob/main/11del%20all%20the%20attachment(s)%20of%20item(s).js)
+ * ### [11. del all the attachment(s) of item(s).js](https://github.com/redleafnew/zotero-javascripts/blob/main/11del%20all%20the%20attachment(s)%20of%20item(s).js)
     删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。    
       
 更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

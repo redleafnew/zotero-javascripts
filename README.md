@@ -43,5 +43,9 @@ Some JavaScripts used in Zotero to batch process
 
  * ### [11. del all the attachment(s) of item(s).js](https://github.com/redleafnew/zotero-javascripts/blob/main/11del%20all%20the%20attachment(s)%20of%20item(s).js)
     删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。    
+
+  * ### [12. copy zotero template to word startup directory.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/12copy%20zotero%20template%20to%20word%20startup%20directory.js)
+    从Zotero安装目录复制zotero.dotm到Word启动目录。
+  
       
 更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

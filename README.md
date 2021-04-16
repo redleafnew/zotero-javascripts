@@ -47,7 +47,7 @@ Some JavaScripts used in Zotero to batch process
     在作者前后添加加粗标记。   
 
  * ### [11. del all the attachment(s) of item(s).js](https://github.com/redleafnew/zotero-javascripts/blob/main/11del%20all%20the%20attachment(s)%20of%20item(s).js)
-    删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。    
+    删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。**注意：附件的删除不可恢复，请提前备份。**    
 
   * ### [12. copy zotero template to word startup directory.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/12copy%20zotero%20template%20to%20word%20startup%20directory.js)
     从Zotero安装目录复制zotero.dotm到Word启动目录。

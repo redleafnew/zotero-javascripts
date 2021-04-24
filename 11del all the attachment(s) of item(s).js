@@ -20,14 +20,18 @@ for (let item of items) {
                     
                // }
                 var file = await attachment.getFilePathAsync();
-                await OS.File.remove(file); //删除文件
+                if (file) {
+                    await OS.File.remove(file); //删除文件
+                }
                 DelAtts.push(file  + "\n");
 
             } //4 for
         } // 3 if
         if (item.isAttachment()) { //附件条目 5 if
                 var file = await item.getFilePathAsync();
-                await OS.File.remove(file); //删除文件
+                if (file) {
+                    await OS.File.remove(file); //删除文件
+                }
                 DelAtts.push(file + "\n");
                  item.deleted = true; 
                  await item.saveTx();

@@ -4,5 +4,5 @@ for (item of items) {
 item.setField("extra", "");
 await item.saveTx();
 }
-//alert("ExtraÒÑÇå³ıÍê³É")
-return "ExtraÒÑÇå³ıÍê³É";
+//alert("Extraå·²æ¸…é™¤å®Œæˆ")
+return "Extraå·²æ¸…é™¤å®Œæˆ";

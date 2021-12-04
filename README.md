@@ -54,5 +54,12 @@ Some JavaScripts used in Zotero to batch process
   
   * ### [13. chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/13chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js)
     将Zotero期刊题目中的LWT更改为LWT-Food Science and Technology。
+    
+* ### [14extra-replace-citations.js](https://github.com/redleafnew/zotero-javascripts/blob/main/14extra-replace-citations.js)
+    将Zotero Extra字段中`SC: None[s2]
+WOS:000685503000003
+1 citations (Semantic Scholar/DOI) [2021-12-04]
+0 citations (Crossref) [2021-12-04]`替换为`* citations`，`*`为Semantic Scholar引用。
+        
       
-更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
+      更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。

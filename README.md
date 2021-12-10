@@ -52,7 +52,8 @@ Some JavaScripts used in Zotero to batch process
   * ### [12. copy zotero template to word startup directory.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/12copy%20zotero%20template%20to%20word%20startup%20directory.js)
     从Zotero安装目录复制zotero.dotm到Word启动目录。
   
-  * ### [13. chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/13chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js)
+  * ### [13. chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/13chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js)[13.1 chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js ](https://github.com/redleafnew/zotero-javascripts/blob/main/13.1chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js)
+
     将Zotero期刊题目中的LWT更改为LWT-Food Science and Technology。
     
 * ### [14extra-replace-citations.js](https://github.com/redleafnew/zotero-javascripts/blob/main/14extra-replace-citations.js)

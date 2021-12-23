@@ -23,7 +23,8 @@ Some JavaScripts used in Zotero to batch process
     将文献的题目大小写修改为句首字母大写（Sentence case）。
 
 * ### [03empty-the-extra-field.js] 
-
+    将`Extra`字段清空。
+    
 * ### [04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js] 
     清除用了[ZotFlie](http://zotfile.com)扩展后删除条目后残留的附件。使用方法见[Zotero不用安装其它软件清理删除条目后残留的PDF方法](https://zhuanlan.zhihu.com/p/356071795)。**注意：附件的删除不可恢复，请提前备份。**
 

@@ -16,30 +16,30 @@ Some JavaScripts used in Zotero to batch process
 
 * ## JavaScript脚本：
 
-* ### [1set-item-language-to-en-if-this-field-is-empty.js] 
+* ### [01set-item-language-to-en-if-this-field-is-empty.js] 
 
      如果语言字段为空，批量将语言设置为en（英语）。
-* ### [2change-the-item-title-to-sentence-case.js]
+* ### [02change-the-item-title-to-sentence-case.js]
     将文献的题目大小写修改为句首字母大写（Sentence case）。
 
-* ### [3empty-the-extra-field.js] 
+* ### [03empty-the-extra-field.js] 
 
-* ### [4delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js] 
+* ### [04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js] 
     清除用了[ZotFlie](http://zotfile.com)扩展后删除条目后残留的附件。使用方法见[Zotero不用安装其它软件清理删除条目后残留的PDF方法](https://zhuanlan.zhihu.com/p/356071795)。**注意：附件的删除不可恢复，请提前备份。**
 
-* ### [5delete-the-addachments-when-the-items-were-removed.js] 
+* ### [05delete-the-addachments-when-the-items-were-removed.js] 
     删除条目的同时删除附件（在安装了[ZotFlie](http://zotfile.com)扩展后很有用）。**注意：附件的删除不可恢复，请提前备份。**
 
-* ### [6change-the-authors-case-to-title-case.js] 
+* ### [06change-the-authors-case-to-title-case.js] 
     将作者大小写修改词首字母大写，使用方法见[Zotero作者姓名批量修改为首字母大写](https://zhuanlan.zhihu.com/p/354481222)。
 
-* ### [7batch-merge-duplicates.js]
+* ### [07batch-merge-duplicates.js]
    批量删除（合并）重复文献，使用方法见[Zotero批量删除（合并）重复文献](https://zhuanlan.zhihu.com/p/352324486)。
 
-* ### [8back-up-profile-and-data.js]
+* ### [08back-up-profile-and-data.js]
     备份配置和数据。使用方法见[Zotero利用JavaScript备份配置和数据](https://zhuanlan.zhihu.com/p/357859432)。
 
-* ### [9delete-item(s)-snapshot(s).js]
+* ### [09delete-item(s)-snapshot(s).js]
     删除所选条目的快照，包括贮存的本地文件。
 
  * ### [10add-bold-tag-around-author.js]
@@ -70,15 +70,15 @@ WOS:000685503000003
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
 
-[1set-item-language-to-en-if-this-field-is-empty.js]:1set-item-language-to-en-if-this-field-is-empty.js
-[2change-the-item-title-to-sentence-case.js]:2change-the-item-title-to-sentence-case.js
-[3empty-the-extra-field.js]:3empty-the-extra-field.js
-[4delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js]:4delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js
-[5delete-the-addachments-when-the-items-were-removed.js]:5delete-the-addachments-when-the-items-were-removed.js
-[6change-the-authors-case-to-title-case.js]:6change-the-authors-case-to-title-case.js
-[7batch-merge-duplicates.js]:7batch-merge-duplicates.js
-[8back-up-profile-and-data.js]:8back-up-profile-and-data.js
-[9delete-item(s)-snapshot(s).js]:9delete-item(s)-snapshots.js
+[01set-item-language-to-en-if-this-field-is-empty.js]:01set-item-language-to-en-if-this-field-is-empty.js
+[02change-the-item-title-to-sentence-case.js]:02change-the-item-title-to-sentence-case.js
+[03empty-the-extra-field.js]:03empty-the-extra-field.js
+[04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js]:04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js
+[05delete-the-addachments-when-the-items-were-removed.js]:05delete-the-addachments-when-the-items-were-removed.js
+[06change-the-authors-case-to-title-case.js]:06change-the-authors-case-to-title-case.js
+[07batch-merge-duplicates.js]:07batch-merge-duplicates.js
+[08back-up-profile-and-data.js]:08back-up-profile-and-data.js
+[09delete-item(s)-snapshot(s).js]:09delete-item(s)-snapshots.js
 [10add-bold-tag-around-author.js]:10add-bold-tag-around-author.js
 [11del-all-the-attachment(s)-of-item(s).js]:11del-all-the-attachment(s)-of-item(s).js
 [12copy-zotero-template-to-word-startup-directory.js]:12copy-zotero-template-to-word-startup-directory.js

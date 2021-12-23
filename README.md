@@ -64,7 +64,7 @@ WOS:000685503000003
 
 
 * ### [15swap-author-first-last-names.js]
-交换作者的`姓`和`名`，如将`Zhang San`替换为`San Zhang`，使用时请将`myPublicationTitle = "Nanoscale"`双引号内的内容替换为自己需要交换作者姓名期刊名称。也可以删除此句，则将所有所选条目的作者`姓`和`名`替换。
+    交换作者的`姓`和`名`，如将`Zhang San`替换为`San Zhang`，使用时请将`myPublicationTitle = "Nanoscale"`双引号内的内容替换为自己需要交换作者姓名期刊名称。也可以删除此句，则将所有所选条目的作者`姓`和`名`替换。
       
       更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 

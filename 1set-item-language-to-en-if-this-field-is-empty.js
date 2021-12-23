@@ -1,14 +1,14 @@
 zoteroPane = Zotero.getActiveZoteroPane();
 items = zoteroPane.getSelectedItems();
-var rn=0; //¼ÆÊıÌæ»»ÌõÄ¿¸öÊı
-var lan="en"; //Ìæ»»µÄÓïÑÔ
+var rn=0; // //è®¡æ•°æ›¿æ¢æ¡ç›®ä¸ªæ•°
+var lan="en"; //æ›¿æ¢çš„è¯­è¨€
 for (item of items) {
 var la = item.getField("language");
-if (la=="")  //Èç¹ûÎª¿ÕÔòÌæ»»
+if (la=="")  //å¦‚æœä¸ºç©ºåˆ™æ›¿æ¢
  {item.setField("language", lan);
 rn+=1;
  await item.saveTx();
 }
 
 }
-return rn+"¸öÌõÄ¿ÓïÑÔ±»Ìæ»»Îª"+lan+"¡£"
+return rn+"ä¸ªæ¡ç›®è¯­è¨€è¢«æ›¿æ¢ä¸º"+lan+"ã€‚"

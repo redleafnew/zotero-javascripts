@@ -66,7 +66,9 @@ WOS:000685503000003
 
 * ### [15swap-author-first-last-names.js]
     交换作者的`姓`和`名`，如将`Zhang San`替换为`San Zhang`，使用时请将`myPublicationTitle = "Nanoscale"`双引号内的内容替换为自己需要交换作者姓名期刊名称。也可以删除此句，则将所有所选条目的作者`姓`和`名`替换。
-      
+
+* ### [16copy-creators-to-clipboard.js]
+    将条目的作者复制到剪切板，代码来源于<https://github.com/wshanks/Zutilo>，修改后中文`姓`和`名`之间无空格，作者之前用英文逗号加空格间隔（`, `），单行显示。存在问题：选中多篇时，所有作者连到一起。 
     
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
@@ -87,3 +89,4 @@ WOS:000685503000003
 [13.1chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js]:13.1chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js
 [14extra-replace-citations.js]:14extra-replace-citations.js
 [15swap-author-first-last-names.js]:15swap-author-first-last-names.js
+[16copy-creators-to-clipboard.js]:16copy-creators-to-clipboard.js

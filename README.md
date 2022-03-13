@@ -26,7 +26,7 @@ Some JavaScripts used in Zotero to batch process
     将`Extra`字段清空。
     
 * ### [04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js] 
-    清除用了[ZotFlie](http://zotfile.com)扩展后删除条目后残留的附件。使用方法见[Zotero不用安装其它软件清理删除条目后残留的PDF方法](https://zhuanlan.zhihu.com/p/356071795)。**注意：附件的删除不可恢复，请提前备份。**
+    清除用了[ZotFlie](http://zotfile.com)扩展后删除条目后残留的附件。使用方法见[Zotero不用安装其它软件清理删除条目后残留的PDF方法](https://zhuanlan.zhihu.com/p/356071795)。**注意：附件的删除不可恢复，请提前备份，而且仅限于不建立子文件夹的情况。**
 
 * ### [05delete-the-addachments-when-the-items-were-removed.js] 
     删除条目的同时删除附件（在安装了[ZotFlie](http://zotfile.com)扩展后很有用）。**注意：附件的删除不可恢复，请提前备份。**

@@ -70,6 +70,11 @@ WOS:000685503000003
 * ### [16copy-creators-to-clipboard.js]
     将条目的作者复制到剪切板，代码来源于<https://github.com/wshanks/Zutilo>，修改后中文`姓`和`名`之间无空格，作者之前用英文逗号加空格间隔（`, `），单行显示。~~存在问题：选中多篇时，所有作者连到一起。~~ 
     
+
+* ### [17change-item-title-to-title-case.js]
+    将条目的题目大小写转为词首字母大写（Title Case），特殊的大小写请按例子自行添加`replace`语句。
+    
+
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
 
@@ -90,3 +95,4 @@ WOS:000685503000003
 [14extra-replace-citations.js]:14extra-replace-citations.js
 [15swap-author-first-last-names.js]:15swap-author-first-last-names.js
 [16copy-creators-to-clipboard.js]:16copy-creators-to-clipboard.js
+[17change-item-title-to-title-case.js]:17change-item-title-to-title-case.js

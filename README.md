@@ -74,6 +74,8 @@ WOS:000685503000003
 * ### [17change-item-title-to-title-case.js]
     将条目的题目大小写转为词首字母大写（Title Case），特殊的大小写请按例子自行添加`replace`语句。
     
+* ### [18change-item-title-to-upper-case.js]
+    将条目的题目大小写转为部分大写。
 
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
@@ -96,3 +98,4 @@ WOS:000685503000003
 [15swap-author-first-last-names.js]:15swap-author-first-last-names.js
 [16copy-creators-to-clipboard.js]:16copy-creators-to-clipboard.js
 [17change-item-title-to-title-case.js]:17change-item-title-to-title-case.js
+[18change-item-title-to-upper-case.js]:18change-item-title-to-upper-case.js

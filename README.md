@@ -83,7 +83,8 @@ WOS:000685503000003
  * ### [23copy-publication-title-to-journal-abbreviation.js]
      中文期刊用期刊名称填充期刊缩写。如果用quicker可以试试这个动作<https://getquicker.net/Sharedaction?code=0d36b2f2-8617-42ea-aec5-08daafdb5f80>。
 
-     
+* ### [24remove-starting-zotero-in-issue.js]
+     删除期刊杂志中期号开始的0，如01变为1，08变为8。
 
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
@@ -109,3 +110,4 @@ WOS:000685503000003
 [18change-item-title-to-upper-case.js]:18change-item-title-to-upper-case.js
 [22auto-scroll-thumbnail.js]:22auto-scroll-thumbnail.js
 [23copy-publication-title-to-journal-abbreviation.js]:23copy-publication-title-to-journal-abbreviation.js
+[24remove-starting-zotero-in-issue.js]:24remove-starting-zotero-in-issue.js

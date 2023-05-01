@@ -1,6 +1,6 @@
 var items = ZoteroPane.getSelectedItems();
 // 文献类型字段见https://aurimasv.github.io/z2csl/typeMap.xml
-var iteyType = `standard`;
+var itemType = `standard`;
 // var iteyType = `bill`
 // var iteyType = `book`
 // var iteyType = `bookSection`
@@ -16,7 +16,7 @@ var iteyType = `standard`;
 // var iteyType = `webpage`
 for (let item of items) {
     if (item && !item.isNote() && item.isRegularItem()) {
-        item.setType(Zotero.ItemTypes.getID(iteyType))
+        item.setType(Zotero.ItemTypes.getID(itemType))
         await item.saveTx();
     }
 }

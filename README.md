@@ -16,22 +16,22 @@ Some JavaScripts used in Zotero to batch process
 
 * ## JavaScript脚本：
 
-* ### [01set-item-language-to-en-if-this-field-is-empty.js] 
+* ### [01set-item-language-to-en-if-this-field-is-empty.js]
 
      如果语言字段为空，批量将语言设置为en（英语）。
 * ### [02change-the-item-title-to-sentence-case.js]
     将文献的题目大小写修改为句首字母大写（Sentence case）。
 
-* ### [03empty-the-extra-field.js] 
+* ### [03empty-the-extra-field.js]
     将`Extra`字段清空。
-    
-* ### [04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js] 
+
+* ### [04delete-the-attachment-files-after-the-items-have-been-removed-when-zotfile-was-installed.js]
     清除用了[ZotFlie](http://zotfile.com)扩展后删除条目后残留的附件。使用方法见[Zotero不用安装其它软件清理删除条目后残留的PDF方法](https://zhuanlan.zhihu.com/p/356071795)。**注意：附件的删除不可恢复，请提前备份，而且仅限于不建立子文件夹的情况。**
 
-* ### [05delete-the-addachments-when-the-items-were-removed.js] 
+* ### [05delete-the-addachments-when-the-items-were-removed.js]
     删除条目的同时删除附件（在安装了[ZotFlie](http://zotfile.com)扩展后很有用）。**注意：附件的删除不可恢复，请提前备份。**
 
-* ### [06change-the-authors-case-to-title-case.js] 
+* ### [06change-the-authors-case-to-title-case.js]
     将作者大小写修改词首字母大写，使用方法见[Zotero作者姓名批量修改为首字母大写](https://zhuanlan.zhihu.com/p/354481222)。
 
 * ### [07batch-merge-duplicates.js]
@@ -44,19 +44,19 @@ Some JavaScripts used in Zotero to batch process
     删除所选条目的快照，包括贮存的本地文件。
 
  * ### [10add-bold-tag-around-author.js]
-    在作者前后添加加粗标记。   
+    在作者前后添加加粗标记。
 
  * ### [11del-all-the-attachment(s)-of-item(s).js]
-    删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。**注意：附件的删除不可恢复，请提前备份。**    
+    删除条目的所有附件，包括贮存在本地的文件，但保留条目本身。**注意：附件的删除不可恢复，请提前备份。**
 
   * ### [12copy-zotero-template-to-word-startup-directory.js]
     从Zotero安装目录复制zotero.dotm到Word启动目录。
-  
+
   * ### [13chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js]
     [13.1chagne-lwt-to-lwt-food-science-and-technology-in-publication-title.js]
 
     将Zotero期刊题目中的LWT更改为LWT-Food Science and Technology。
-    
+
 * ### [14extra-replace-citations.js]
     将Zotero Extra字段中`SC: None[s2]
 WOS:000685503000003
@@ -68,12 +68,12 @@ WOS:000685503000003
     交换作者的`姓`和`名`，如将`Zhang San`替换为`San Zhang`，使用时请将`myPublicationTitle = "Nanoscale"`双引号内的内容替换为自己需要交换作者姓名期刊名称。也可以删除此句，则将所有所选条目的作者`姓`和`名`替换。
 
 * ### [16copy-creators-to-clipboard.js]
-    将条目的作者复制到剪切板，代码来源于<https://github.com/wshanks/Zutilo>，修改后中文`姓`和`名`之间无空格，作者之前用英文逗号加空格间隔（`, `），单行显示。~~存在问题：选中多篇时，所有作者连到一起。~~ 
-    
+    将条目的作者复制到剪切板，代码来源于<https://github.com/wshanks/Zutilo>，修改后中文`姓`和`名`之间无空格，作者之前用英文逗号加空格间隔（`, `），单行显示。~~存在问题：选中多篇时，所有作者连到一起。~~
+
 
 * ### [17change-item-title-to-title-case.js]
     将条目的题目大小写转为词首字母大写（Title Case），特殊的大小写请按例子自行添加`replace`语句。
-    
+
 * ### [18change-item-title-to-upper-case.js]
     将条目的题目大小写转为部分大写。
 
@@ -89,6 +89,10 @@ WOS:000685503000003
 
 * ### [25empty-deleted-collections.js]
     清空delitem 0.0.20之前版本删除分类（文件夹）后残留在Add to Colletions中分类（文件夹），见[14#](https://github.com/redleafnew/delitemwithatt/issues/14#)。
+
+
+* ### [26change-item-type.js]
+   更改文献（条目）类型。代码源于：<https://forums.zotero.org/discussion/78245/i-need-javascript-code-to-change-a-lot-items-type>
 
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
@@ -116,3 +120,4 @@ WOS:000685503000003
 [23copy-publication-title-to-journal-abbreviation.js]:23copy-publication-title-to-journal-abbreviation.js
 [24remove-starting-zotero-in-issue.js]:24remove-starting-zotero-in-issue.js
 [25empty-deleted-collections.js]:25empty-deleted-collections.js
+[26change-item-type.js]: 26change-item-type.js

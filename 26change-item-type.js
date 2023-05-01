@@ -15,8 +15,9 @@ var iteyType = `standard`;
 // var iteyType = `thesis`
 // var iteyType = `webpage`
 for (let item of items) {
-
-    item.setType(Zotero.ItemTypes.getID(iteyType))
-    await item.saveTx();
+    if (item && !item.isNote() && item.isRegularItem()) {
+        item.setType(Zotero.ItemTypes.getID(iteyType))
+        await item.saveTx();
+    }
 }
 return `item type have (has) been changed to ${itemType}.`;

@@ -72,6 +72,7 @@ WOS:000685503000003
 
 
 * ### [17change-item-title-to-title-case.js]
+[17.1change-item-title-to-title-case.js]
     将条目的题目大小写转为词首字母大写（Title Case），特殊的大小写请按例子自行添加`replace`语句。
 
 * ### [18change-item-title-to-upper-case.js]
@@ -115,6 +116,7 @@ WOS:000685503000003
 [15swap-author-first-last-names.js]:15swap-author-first-last-names.js
 [16copy-creators-to-clipboard.js]:16copy-creators-to-clipboard.js
 [17change-item-title-to-title-case.js]:17change-item-title-to-title-case.js
+[17.1change-item-title-to-title-case.js]:17.1change-item-title-to-title-case.js
 [18change-item-title-to-upper-case.js]:18change-item-title-to-upper-case.js
 [22auto-scroll-thumbnail.js]:22auto-scroll-thumbnail.js
 [23copy-publication-title-to-journal-abbreviation.js]:23copy-publication-title-to-journal-abbreviation.js

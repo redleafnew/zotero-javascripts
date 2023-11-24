@@ -11,7 +11,7 @@ for (let item of items) {
 
         var newAb = item.getField('abstractNote').replace(pattern, ' ')
             .replace(pattern1, "$1")
-			.replace(pattern2, "$1$2");  //新摘要
+	    .replace(pattern2, "$1$2");  //新摘要
         item.setField('abstractNote', newAb);  //替换摘要
         item.saveTx();
 

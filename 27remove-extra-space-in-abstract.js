@@ -9,9 +9,9 @@ for (let item of items) {
 
     if (item.isRegularItem() && !item.isCollection()) {
 
-        var newAb = item.getField('abstractNote').replace(pattern, ' ')
-            .replace(pattern1, "$1")
-	    .replace(pattern2, "$1$2");  //新摘要
+        var newAb = item.getField('abstractNote').replace(pattern, ' ') // 多个空格替换为一个空格
+            .replace(pattern1, "$1")  //替换数字后面的空格
+	    .replace(pattern2, "$1$2");  // 清除数字和/之间的空格
         item.setField('abstractNote', newAb);  //替换摘要
         item.saveTx();
 

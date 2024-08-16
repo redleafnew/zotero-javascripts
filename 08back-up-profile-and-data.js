@@ -1,3 +1,4 @@
+const { OS } = ChromeUtils.importESModule("chrome://zotero/content/osfile.mjs");
 var user_path = 'f:\\backup'; // 用户指定备份目录
 var cur_date = new Date().toISOString().split('T')[0]; // 返回当前日期
 var back_path = OS.Path.join(user_path, cur_date); // 将用户目录与当前日期目录组合

@@ -21,7 +21,7 @@ if (await OS.File.exists(back_path)){
 
 // 备份函数数据、profile和profiles.ini
 async function back_up (){
-	
+	const { OS } = ChromeUtils.importESModule("chrome://zotero/content/osfile.mjs");
 		await  make_dir(user_path);
 		await  make_dir(back_path);
 		await  make_dir(back_path_profile); // 新建目录
@@ -47,6 +47,7 @@ async function back_up (){
 
 // 备份profiles.ini未完成
 async function back_up_profiles_ini (){
+    const { OS } = ChromeUtils.importESModule("chrome://zotero/content/osfile.mjs");
 	var os_user_path = OS.Constants.Path.homeDir; // 得到当前用户目录
 	zotero_profile_ini = "AppData\\Roaming\\Zotero\\Zotero\\profiles.ini"; // Zotero profiles.ini后缀
 	jurism_profile_ini = "AppData\\Roaming\\\Jurism\\Zotero\\profiles.ini"; // Jurism profiles.ini后缀
@@ -66,6 +67,7 @@ async function back_up_profiles_ini (){
 
 // 新建目录函数
 async function make_dir(path){
+    const { OS } = ChromeUtils.importESModule("chrome://zotero/content/osfile.mjs");
 	if (!await OS.File.exists(path)) {
 		OS.File.makeDir(path, {
 				ignoreExisting: true,
@@ -78,3 +80,4 @@ async function make_dir(path){
 alert ('配置文件备份在：' + back_path_profile + '\n' +
        '数据文件备份在：' + back_path_data +  '\n' +
 	   'profiles.ini备份在：' + back_path)
+return "备份完成。"

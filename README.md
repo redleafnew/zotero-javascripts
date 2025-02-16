@@ -136,6 +136,6 @@ WOS:000685503000003
 [26change-item-type.js]: 26change-item-type.js
 [27remove-extra-space-in-abstract.js]: 27remove-extra-space-in-abstract.js
 [28remove-extra-enter-in-abstract.js]: 28remove-extra-enter-in-abstract.js
-[29batch_set_sup_sub_in_title.js]: 29batch_set_sup_sub_in_title.js]
+[29batch_set_sup_sub_in_title.js]: 29batch_set_sup_sub_in_title.js
 
 

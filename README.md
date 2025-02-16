@@ -96,6 +96,16 @@ WOS:000685503000003
 * ### [26change-item-type.js]
    更改文献（条目）类型。代码源于：<https://forums.zotero.org/discussion/78245/i-need-javascript-code-to-change-a-lot-items-type>
 
+* ### [27remove-extra-space-in-abstract.js]
+   清除的摘要中的多余窗格。
+
+* ### [28remove-extra-enter-in-abstract.js]
+   清除的摘要中的多余回车。
+
+* ### [29batch_set_sup_sub_in_title.js]
+   批量改标题中的化学式上下标。代码源于：https://zhuanlan.zhihu.com/p/24000322183，感谢@Four Happy
+
+  
     更多Zotero的使用方法见[Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-std-GB-T-7714-related-csl)，Zotero的使用教程见[Zotero_introduction](https://github.com/redleafnew/Zotero_introduction)。
 
 
